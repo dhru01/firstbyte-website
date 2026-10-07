@@ -10,7 +10,7 @@ export function About() {
         <Reveal className="lg:col-span-7">
           <SectionLabel index="05">Firstbyte</SectionLabel>
           <h2 className="mt-5 max-w-xl text-[clamp(2rem,1.1rem+2.2vw,3.4rem)] font-semibold leading-[1.08] tracking-[-0.03em] text-balance">
-            Automation should solve problems — not create new ones.
+            Automation should solve problems - not create new ones.
           </h2>
           <div className="mt-8 max-w-xl space-y-5 text-base leading-7 text-muted">
             <p>

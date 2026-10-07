@@ -30,11 +30,8 @@ export function Hero() {
             </p>
           </Reveal>
           <Reveal delay={0.14}>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <ButtonLink href="#contact" className="w-full sm:w-auto">
-                Start a Project
-              </ButtonLink>
-              <ButtonLink href="#work" variant="secondary" className="w-full sm:w-auto">
+            <div className="mt-8">
+              <ButtonLink href="#work" className="w-full sm:w-auto">
                 Explore Our Work
               </ButtonLink>
             </div>

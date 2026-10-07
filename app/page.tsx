@@ -1,7 +1,4 @@
 import { About } from "@/components/About";
-import { AutomationDemo } from "@/components/AutomationDemo";
-import { CTA } from "@/components/CTA";
-import { Footer } from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import { Navbar } from "@/components/Navbar";
 import { Process } from "@/components/Process";
@@ -19,11 +16,8 @@ export default function Page() {
         <Scaffolds />
         <Work />
         <Process />
-        <AutomationDemo />
         <About />
-        <CTA />
       </main>
-      <Footer />
     </>
   );
 }

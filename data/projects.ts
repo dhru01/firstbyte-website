@@ -18,7 +18,7 @@ export type Project = {
    */
   result: string;
   capabilities: string[];
-  mockup: "collections" | "support";
+  mockup: "collections" | "support" | "tutoring";
   /** Case study or product URL. Falls back to the contact section. */
   href?: string;
   /** When set, replaces the interface mockup. */
@@ -73,5 +73,26 @@ export const projects: Project[] = [
       "Analytics",
     ],
     mockup: "support",
+  },
+  {
+    id: "buddyai",
+    name: "BuddyAI",
+    category: "AI Education Platform",
+    description:
+      "An AI-powered tutoring platform that gives learners instant academic support through WhatsApp, backed by a dashboard for managing learners and conversations.",
+    problem:
+      "Traditional tutoring isn’t always available when learners need help. BuddyAI needed a way for students to access academic support through a platform they already use every day.",
+    built:
+      "A WhatsApp-based AI tutoring platform that lets learners ask questions, receive explanations and get academic support, with a central dashboard for managing learners and monitoring conversations.",
+    result:
+      "Learners can access personalised academic support directly from WhatsApp, while administrators have a single place to oversee activity, learners and conversations.",
+    capabilities: [
+      "AI Tutoring",
+      "WhatsApp",
+      "Learner Dashboard",
+      "Conversation Management",
+      "Multilingual Support",
+    ],
+    mockup: "tutoring",
   },
 ];

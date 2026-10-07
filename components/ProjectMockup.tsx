@@ -1,5 +1,6 @@
 import Image from "next/image";
 import type { Project } from "@/data/projects";
+import { BuddyAIMockup } from "./BuddyAIMockup";
 
 const collectionRows = [
   { id: "4921", channel: "WhatsApp", status: "Scheduled" },
@@ -16,6 +17,10 @@ const supportThreads = [
 ];
 
 export function ProjectMockup({ project }: { project: Project }) {
+  if (project.mockup === "tutoring") {
+    return <BuddyAIMockup />;
+  }
+
   if (project.image) {
     return (
       <Image

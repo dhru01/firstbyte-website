@@ -96,15 +96,6 @@ export function Navbar() {
               </a>
             ))}
           </nav>
-            <a
-              href="#contact"
-              className="group hidden h-11 items-center gap-2 rounded-full bg-accent px-4 text-sm font-medium text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.22),0_10px_30px_-16px_rgba(23,105,255,0.95)] transition-colors hover:bg-accent-2 lg:inline-flex"
-            >
-              Start a Project
-              <span className="transition-transform duration-300 group-hover:translate-x-1" aria-hidden>
-                →
-              </span>
-            </a>
             <button
               ref={toggleRef}
               type="button"
@@ -156,14 +147,6 @@ export function Navbar() {
               </li>
             ))}
           </ul>
-          <a
-            href="#contact"
-            className="rise-in mx-auto mt-8 flex h-12 w-full max-w-[1160px] items-center justify-center rounded-full bg-accent text-sm font-medium text-white"
-            style={{ animationDelay: "220ms" }}
-            onClick={close}
-          >
-            Start a Project →
-          </a>
         </nav>
       ) : null}
     </header>
